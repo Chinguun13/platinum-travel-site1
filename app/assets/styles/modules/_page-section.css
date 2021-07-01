@@ -9,4 +9,12 @@
     background-color: $mainBlue;
     color: #fff;
   }
+
+  &--testimonials {
+    background-color: $secondBlue;
+    @mixin atLarge {
+      background: url(https://source.unsplash.com/1600x900/?nature,water)
+        no-repeat top center/cover;
+    }
+  }
 }

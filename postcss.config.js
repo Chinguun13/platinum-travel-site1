@@ -5,6 +5,6 @@ module.exports = {
     require("postcss-preset-env"),
     require("postcss-nested"),
     require("postcss-simple-vars"),
-    require("autoprefixer")
+    require("autoprefixer"),
     ],
   };
