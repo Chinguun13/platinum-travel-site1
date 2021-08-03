@@ -6,5 +6,6 @@ module.exports = {
     require("postcss-nested"),
     require("postcss-simple-vars"),
     require("autoprefixer"),
+    require("postcss-hexrgba"),
     ],
   };
