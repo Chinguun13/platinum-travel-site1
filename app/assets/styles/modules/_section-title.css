@@ -32,4 +32,8 @@
   &--blue {
     color: $mainBlue;
   }
+
+  &--white {
+    color: #fff;
+  }
 }

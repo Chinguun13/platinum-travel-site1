@@ -110,6 +110,7 @@
 
     @mixin atMedium {
       padding-top: 0;
+      opacity: 1;
       z-index: 1;
       display: block;
       transform: scale(1);
