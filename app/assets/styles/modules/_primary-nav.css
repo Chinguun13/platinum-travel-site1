@@ -37,20 +37,24 @@
         padding-right: 20px;
       }
     }
+  }
 
-    a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 300;
-      display: block;
-      padding: 5px 8px;
-      font-size: 0.8rem;
-      background-color: rgba(#2f5572, 0.5);
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    background-color: rgba(#2f5572, 0.5);
 
-      @mixin atMedium {
-        font-size: 1rem;
-        padding: 12px 0;
-        background-color: transparent;
+    @mixin atMedium {
+      font-size: 1rem;
+      padding: 12px 0;
+      background-color: transparent;
+
+      &.is-current-link {
+        color: #fabb69;
       }
     }
   }
