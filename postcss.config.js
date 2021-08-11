@@ -7,5 +7,6 @@ module.exports = {
     require("postcss-simple-vars"),
     require("autoprefixer"),
     require("postcss-hexrgba"),
-    ],
-  };
+    require('cssnano')({preset: 'default' }),
+  ],
+};
